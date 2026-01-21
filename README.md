@@ -91,7 +91,7 @@ sudo udevadm control --reload-rules && sudo udevadm trigger
 
 ## 💻 Como Executar
 ~~~bash
-python3 cooler.py
+python cooler.py
 ~~~
 
 ---
@@ -101,9 +101,5 @@ python3 cooler.py
 - Verifique se o dispositivo aparece em `lsusb`
 - Não é necessário rodar como root após configurar o udev
 - Secure Boot pode bloquear sensores
-
+- Se quiser rodar o scrip na inicialização use o systemctl, use este tuturial: https://www.codementor.io/@ufuksfk/how-to-run-a-python-script-in-linux-with-systemd-1nh2x3hi0e
 ---
-
-## 📄 Licença
-
-MIT License
